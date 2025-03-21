@@ -24,7 +24,7 @@ export const postCommissionProof = (data) => async (dispatch) => {
   dispatch(commissionSlice.actions.postCommissionProofRequest());
   try {
     const response = await axios.post(
-      "http://3.110.157.235:5000/api/v1/commission/proof",
+      "http://52.66.208.43:5000/api/v1/commission/proof",
       data,
       {
         withCredentials: true,
